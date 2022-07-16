@@ -2,43 +2,41 @@
  * @name macOS Buttons
  * @description macOS Titlebar Buttons
  * @author DaBluLite
- * @version 1.0.0
+ * @version 2.0.0
  */
  
 .winButtonClose-3Q8ZH5 {
-	order: 3;
-	margin-top: 10px;
-	margin-left: 5px;
+    order: 3;
+    margin-top: 10px;
+    margin-left: 5px;
 }
 .winButtonMinMax-3RsPUg[aria-label="Maximize"] {
-	order: 2;
-	margin-top: 10px;
+    order: 2;
+    margin-top: 10px;
 }
 .winButtonMinMax-3RsPUg[aria-label="Minimize"] {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 .winButtonClose-3Q8ZH5 > svg {
-	background-image: url(https://github.com/AI-ien/macos-titlebar/raw/main/assets/titlebutton-close%402.png) !important;
-	background-size: contain !important;
+    background-image: url(https://github.com/AI-ien/macos-titlebar/raw/main/assets/titlebutton-close%402.png) !important;
+    background-size: contain !important;
 }
 .winButtonClose-3Q8ZH5 > svg > polygon {
-	display: none !important;
-	fill: transparent !important;
+    display: none !important;
 }
 .winButtonMinMax-3RsPUg[aria-label="Maximize"] > svg {
-	background-image: url(https://github.com/AI-ien/macos-titlebar/raw/main/assets/titlebutton-maximize%402.png) !important;
-	background-size: contain !important;
+    background-image: url(https://github.com/AI-ien/macos-titlebar/raw/main/assets/titlebutton-maximize%402.png) !important;
+    background-size: contain !important;
 }
 .winButtonMinMax-3RsPUg[aria-label="Minimize"] > svg {
-	background-image: url(https://github.com/AI-ien/macos-titlebar/raw/main/assets/titlebutton-minimize%402.png) !important;
-	background-size: contain !important;
+    background-image: url(https://github.com/AI-ien/macos-titlebar/raw/main/assets/titlebutton-minimize%402.png) !important;
+    background-size: contain !important;
 }
 .winButtonMinMax-3RsPUg > svg > rect {
-	display: none !important;
-	fill: transparent !important;
+    display: none !important;
 }
 .winButton-3UMjdg:hover {
-	background-color: transparent;
+    background-color: transparent;
 }
 .winButton-3UMjdg {
     width: 20px !important;
@@ -46,25 +44,27 @@
 }
 .guilds-2JjMmN {
     height: 100% !important;
-	margin-top: 32px;
+    margin-top: 32px;
 }
 .typeWindows-2-g3UY {
-	-webkit-box-pack: end;
+    -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
+    margin-top: 0;
+    height: 0;
 }
 .platform-win .closeButton-30b1gR {
-  width: 100% !important;
-  -webkit-app-region: drag;
+    width: 100% !important;
+    -webkit-app-region: drag;
 }
 .platform-win .container-ZMc96U {
-  width: 100% !important;
-  -webkit-app-region: drag;
+    width: 100% !important;
+    -webkit-app-region: drag;
 }
 .platform-win .title-31SJ6t {
-  width: 100% !important;
-  -webkit-app-region: drag;
+    width: 100% !important;
+    -webkit-app-region: drag;
 }
 .wordmark-2u86JB {
-	display: none;
+    display: none;
 }
