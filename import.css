@@ -39,7 +39,11 @@
     height: var(--mactitlebar-button-height) !important;
 }
 .guilds-2JjMmN > ul {
-    margin-top: calc(var(--mactitlebar-top-margin) + 22px);
+    margin-top: var(--macbuttons-serverlist-inner-top-margin);
+}
+.guilds-2JjMmN {
+    margin-top: var(--macbuttons-serverlist-outer-top-margin);
+    height: var(--macbuttons-serverlist-outer-height);
 }
 .typeWindows-2-g3UY {
     -webkit-box-pack: end;
